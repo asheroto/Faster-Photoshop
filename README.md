@@ -3,7 +3,7 @@
 
 ![Example](https://github.com/asheroto/Faster-Photoshop/blob/master/Demo.gif?raw=true)
 
-In today's gotta-have-it-fast world, waiting 5 seconds for Photoshop to load is so '90s. 🤣
+In today's gotta-have-it-fast world, waiting 5-10 seconds for Photoshop to load is so '90s. 🤣
 
 Maybe it's no big deal, but hey, if we *could* make Photoshop load **instantly**, why not?
 
@@ -19,7 +19,7 @@ No need to wait on Photoshop to load any longer!
 
 #### Startup
 - At log on, **Faster-Photoshop** launches `Photoshop.exe` in the background
-- It waits a few seconds and then hides the main window
+- It waits a second and then hides the main window
 - It suspends the processes `Photoshop.exe` and `dynamiclinkmanager.exe` which ensures no resources are in use
 
 #### To Open Photoshop
