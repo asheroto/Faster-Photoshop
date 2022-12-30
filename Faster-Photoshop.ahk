@@ -4,7 +4,7 @@
 ; - Makes Photoshop appear to open instantly
 ;
 ; Version:
-; - 0.1
+; - 0.2
 ;
 ; Author:
 ; - asheroto
@@ -21,6 +21,7 @@
 ; - Sysinternals PsSuspend (keep pssuspend.exe and pssuspend64.exe in the same directory as the ahk file)
 
 #SingleInstance, Force
+RegWrite, REG_DWORD, HKEY_CURRENT_USER\Software\Sysinternals\PsSuspend, EulaAccepted, 1
 
 ; Photoshop - load on startup
 If(ProcessExist("Photoshop.exe") == false) {
@@ -74,12 +75,12 @@ return
 ProcessSuspend(Command) {
 	If(Command == true) {
 		; Suspend Photoshop processes
-		Run, pssuspend Photoshop,,Hide
-		Run, pssuspend dynamiclinkmanager,,Hide
+		Run, "%A_ScriptDir%\pssuspend.exe" Photoshop,,Hide
+		Run, "%A_ScriptDir%\pssuspend.exe" dynamiclinkmanager,,Hide
 	} else {
 		; Resume Photoshop processes
-		Run, pssuspend Photoshop -r,,Hide
-		Run, pssuspend dynamiclinkmanager -r,,Hide
+		Run, "%A_ScriptDir%\pssuspend.exe" -r Photoshop,,Hide
+		Run, "%A_ScriptDir%\pssuspend.exe" -r dynamiclinkmanager,,Hide
 	}
 }
 
