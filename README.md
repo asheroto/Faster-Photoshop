@@ -1,5 +1,7 @@
 # Instantly Load/Open Photoshop
 
+![Example](https://github.com/asheroto/Faster-Photoshop/blob/master/example.gif?raw=true)
+
 In today's gotta-have-it-fast world, waiting 5 seconds for Photoshop to load is so '90s. 🤣
 
 Maybe it's no big deal, but hey, if we *could* make Photoshop load **instantly**, why not?
