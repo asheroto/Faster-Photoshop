@@ -1,3 +1,4 @@
+
 # Instantly Load/Open Photoshop
 
 ![Example](https://github.com/asheroto/Faster-Photoshop/blob/master/Demo.gif?raw=true)
@@ -31,14 +32,28 @@ No need to wait on Photoshop to load any longer!
 - While in Photoshop, go to File > Exit
 
 ## Installation:
-- Install [AutoHotkey](https://www.autohotkey.com/) if not already installed
-- [Download the zip file](https://github.com/asheroto/Faster-Photoshop/releases/latest/download/Faster-Photoshop.zip) from [Releases](https://github.com/asheroto/Faster-Photoshop/releases) and extract files
-- Leave `pssuspend.exe` and `pssuspend64.exe` in the same directory as the **ahk** file
+
+**Compiled version (AutoHotkey install not required)**
+- [Download the zip file](https://github.com/asheroto/Faster-Photoshop/releases/latest/download/Faster-Photoshop_Compiled.zip) from [Releases](https://github.com/asheroto/Faster-Photoshop/releases) and extract files
+- Leave `pssuspend.exe` and `pssuspend64.exe` in the same directory as `Faster-Photoshop.exe`
 - Start > search for **Task Scheduler**, and open it
 	- Go to **Action** > **Create Task**
 	- Set the name to **Faster-Photoshop**
 	- Optional: *Check* **Run with highest privileges** to help hide the Photoshop splash screen faster when loading
 	- Under the **Triggers** tab, create a new one **At log on** of **specific user** (your user account)
-	- Under the **Actions** tab, create a new one to **Start Program** and specify the path to the **ahk** file
+	- Under the **Actions** tab, create a new one to **Start Program** and specify the path to `Faster-Photoshop.exe`
+	- Under the **Settings** tab, *uncheck* the option **Stop the task if it runs longer than**
+	- Click **OK**
+
+**AutoHotkey version**
+- Install [AutoHotkey](https://www.autohotkey.com/) if not already installed
+- [Download the zip file](https://github.com/asheroto/Faster-Photoshop/releases/latest/download/Faster-Photoshop.zip) from [Releases](https://github.com/asheroto/Faster-Photoshop/releases) and extract files
+- Leave `pssuspend.exe` and `pssuspend64.exe` in the same directory as `Faster-Photoshop.ahk`
+- Start > search for **Task Scheduler**, and open it
+	- Go to **Action** > **Create Task**
+	- Set the name to **Faster-Photoshop**
+	- Optional: *Check* **Run with highest privileges** to help hide the Photoshop splash screen faster when loading
+	- Under the **Triggers** tab, create a new one **At log on** of **specific user** (your user account)
+	- Under the **Actions** tab, create a new one to **Start Program** and specify the path to `Faster-Photoshop.ahk`
 	- Under the **Settings** tab, *uncheck* the option **Stop the task if it runs longer than**
 	- Click **OK**
