@@ -22,7 +22,7 @@ No need to wait on Photoshop to load any longer!
 - It waits a few seconds and then hides the main window
 - It suspends the processes `Photoshop.exe` and `dynamiclinkmanager.exe` which ensures no resources are in use
 
-#### To Open Photoshop:
+#### To Open Photoshop
 - Press `Ctrl+Win+Shift+P`
 
 #### To Close Photoshop
@@ -33,7 +33,7 @@ No need to wait on Photoshop to load any longer!
 
 ## Installation:
 
-#### Compiled/EXE version (AutoHotkey install not required)
+### Compiled/EXE version (AutoHotkey install not required)
 - [Download the zip file](https://github.com/asheroto/Faster-Photoshop/releases/latest/download/Faster-Photoshop_Compiled.zip) from [Releases](https://github.com/asheroto/Faster-Photoshop/releases) and extract files
 - Leave `pssuspend.exe` and `pssuspend64.exe` in the same directory as `Faster-Photoshop.exe`
 - Start > search for **Task Scheduler**, and open it
@@ -45,7 +45,7 @@ No need to wait on Photoshop to load any longer!
 	- Under the **Settings** tab, *uncheck* the option **Stop the task if it runs longer than**
 	- Click **OK**
 
-#### Source/AHK version (AutoHotkey install required)
+###U Source/AHK version (AutoHotkey install required)
 - Install [AutoHotkey](https://www.autohotkey.com/) if not already installed
 - [Download the zip file](https://github.com/asheroto/Faster-Photoshop/releases/latest/download/Faster-Photoshop.zip) from [Releases](https://github.com/asheroto/Faster-Photoshop/releases) and extract files
 - Leave `pssuspend.exe` and `pssuspend64.exe` in the same directory as `Faster-Photoshop.ahk`
