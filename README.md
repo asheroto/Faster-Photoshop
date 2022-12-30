@@ -19,7 +19,7 @@ No need to wait on Photoshop to load any longer!
 #### Startup:
 - At log on, **Faster-Photoshop** launches `Photoshop.exe` in the background
 - It waits a few seconds and then hides the main window
-- It suspends the processes `Photoshop.exe` and `dynamiclinkmanager.exe`, which ensures no resources are in use
+- It suspends the processes `Photoshop.exe` and `dynamiclinkmanager.exe` which ensures no resources are in use
 
 #### To Open Photoshop:
 - Press `Ctrl+Win+Shift+P`
@@ -32,7 +32,7 @@ No need to wait on Photoshop to load any longer!
 
 ## Installation:
 - Install [AutoHotkey](https://www.autohotkey.com/) if not already installed
-- Download zip file from Releases and extract
+- [Download the zip file](https://github.com/asheroto/Faster-Photoshop/releases/latest/download/Faster-Photoshop.zip) from [Releases](https://github.com/asheroto/Faster-Photoshop/releases) and extract files
 - Leave `pssuspend.exe` and `pssuspend64.exe` in the same directory as the **ahk** file
 - Start > search for **Task Scheduler**, and open it
 	- Go to **Action** > **Create Task**
