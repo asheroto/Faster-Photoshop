@@ -39,7 +39,7 @@ No need to wait on Photoshop to load any longer!
 - Start > search for **Task Scheduler**, and open it
 	- Go to **Action** > **Create Task**
 	- Set the name to **Faster-Photoshop**
-	- Optional: *Check* **Run with highest privileges** to help hide the Photoshop splash screen faster when loading
+	- Optional: *Check* **Run with highest privileges** to help hide the Photoshop splash screen faster when loading (Photoshop will still run as local user account)
 	- Under the **Triggers** tab, create a new one **At log on** of **specific user** (your user account)
 	- Under the **Actions** tab, create a new one to **Start Program** and specify the path to `Faster-Photoshop.exe`
 	- Under the **Settings** tab, *uncheck* the option **Stop the task if it runs longer than**
@@ -52,7 +52,7 @@ No need to wait on Photoshop to load any longer!
 - Start > search for **Task Scheduler**, and open it
 	- Go to **Action** > **Create Task**
 	- Set the name to **Faster-Photoshop**
-	- Optional: *Check* **Run with highest privileges** to help hide the Photoshop splash screen faster when loading
+	- Optional: *Check* **Run with highest privileges** to help hide the Photoshop splash screen faster when loading (Photoshop will still run as local user account)
 	- Under the **Triggers** tab, create a new one **At log on** of **specific user** (your user account)
 	- Under the **Actions** tab, create a new one to **Start Program** and specify the path to `Faster-Photoshop.ahk`
 	- Under the **Settings** tab, *uncheck* the option **Stop the task if it runs longer than**
