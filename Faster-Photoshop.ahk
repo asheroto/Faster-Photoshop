@@ -18,11 +18,7 @@
 ; - Upon pressing Alt+F4 to close the window, the window is immediately hidden, and the processes are suspended
 ;
 ; Dependencies:
-; - Sysinternals PsSuspend (put pssuspend.exe and pssuspend64.exe in the same directory as the ahk file)
-;
-; Recomendations:
-; - Run the script as a scheduled task as Administrator with the trigger "At Log On"
-; - This way the pssuspend windows will not flash
+; - Sysinternals PsSuspend (keep pssuspend.exe and pssuspend64.exe in the same directory as the ahk file)
 
 #SingleInstance, Force
 
@@ -79,12 +75,10 @@ ProcessSuspend(Command) {
 	If(Command == true) {
 		; Suspend Photoshop processes
 		Run, pssuspend Photoshop,,Hide
-		Run, pssuspend AdobeIPCBroker,,Hide
 		Run, pssuspend dynamiclinkmanager,,Hide
 	} else {
 		; Resume Photoshop processes
 		Run, pssuspend Photoshop -r,,Hide
-		Run, pssuspend AdobeIPCBroker -r,,Hide
 		Run, pssuspend dynamiclinkmanager -r,,Hide
 	}
 }
