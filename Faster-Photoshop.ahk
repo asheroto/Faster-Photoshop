@@ -1,7 +1,7 @@
 ; Faster-Photoshop
 ;
 ; Summary:
-; - Makes Photoshop appear to open instantly
+; - Instantly open Adobe Photoshop
 ;
 ; Version:
 ; - 0.2
