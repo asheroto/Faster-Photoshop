@@ -17,7 +17,7 @@ No need to wait on Photoshop to load any longer!
 
 ## How it works
 
-#### Startup:
+#### Startup
 - At log on, **Faster-Photoshop** launches `Photoshop.exe` in the background
 - It waits a few seconds and then hides the main window
 - It suspends the processes `Photoshop.exe` and `dynamiclinkmanager.exe` which ensures no resources are in use
@@ -31,7 +31,7 @@ No need to wait on Photoshop to load any longer!
 #### To Actually End the Photoshop Processes
 - While in Photoshop, go to File > Exit
 
-## Installation:
+## Installation
 
 ### Compiled/EXE version (AutoHotkey install not required)
 - [Download the zip file](https://github.com/asheroto/Faster-Photoshop/releases/latest/download/Faster-Photoshop_Compiled.zip) from [Releases](https://github.com/asheroto/Faster-Photoshop/releases) and extract files
