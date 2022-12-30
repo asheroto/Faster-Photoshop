@@ -1,6 +1,6 @@
 # Instantly Load/Open Photoshop
 
-![Example](https://github.com/asheroto/Faster-Photoshop/blob/master/Example.mp4?raw=true)
+![Example](https://github.com/asheroto/Faster-Photoshop/blob/master/Demo.gif?raw=true)
 
 In today's gotta-have-it-fast world, waiting 5 seconds for Photoshop to load is so '90s. 🤣
 
