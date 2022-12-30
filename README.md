@@ -31,7 +31,7 @@ No need to wait on Photoshop to load any longer!
 #### To Actually End the Photoshop Processes
 - While in Photoshop, go to File > Exit
 
-#### To End Faster-Photoshop Process
+#### To End the Faster-Photoshop Process
 - Right-click on the Faster-Photoshop tray icon and click Exit
 
 ## Installation
